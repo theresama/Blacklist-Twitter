@@ -1,3 +1,5 @@
+var blacklist = new Array();
+
 setInterval(
 	function(){
 		$('*:contains("Taylor Swift")').parent('.stream-item').remove();
@@ -5,7 +7,7 @@ setInterval(
 		$('*:contains("@taylorswift13")').parent('.stream-item').remove();
 		$('*:contains("taylor swift")').parent('.stream-item').remove();
 	}
-	, 3000);
+	, 1000);
 
 
 
