@@ -2,8 +2,8 @@ Blacklist-Twitter
 =================
 Removes tweets from your timeline that contain blacklisted content (a list of things you don't want to see). Because the Internet lets you customize your experience the way the real world doesn't.
 <Br><br>
-Currently works only if you hardcode the values into blacklist.js 
+Add the words you want to block to **blacklist.txt**. It removes tweets that match any of the words in the file.
 
 ####to-do:
-* Take user input in popup.html and link to blacklist.js
+* take user input from popup.html
 
